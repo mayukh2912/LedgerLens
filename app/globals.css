@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+  background-color: #e8a33d;
+  color: #1b2430;
+}
+
+.bg-graph-paper {
+  background-image: linear-gradient(#ded9cc 1px, transparent 1px), linear-gradient(90deg, #ded9cc 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid #2f6f6e;
+  outline-offset: 2px;
+}
