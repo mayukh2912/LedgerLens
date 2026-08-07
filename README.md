@@ -1,4 +1,4 @@
-# LedgerLens
+# LedgerLens LIVE LINK : https://ledger-lens-blue.vercel.app
 
 An AI-assisted analytics dashboard that ingests any spreadsheet (`.xlsx`, `.xls`, `.csv`), statistically
 profiles every column, detects correlated patterns, flags anomalies, and — if you provide an Anthropic
@@ -42,21 +42,7 @@ Visit `http://localhost:3000` and drop in a spreadsheet.
 
 ## Deploy to Vercel
 
-**Option A — Vercel dashboard (no CLI needed)**
-1. Push this folder to a GitHub repo.
-2. Go to [vercel.com/new](https://vercel.com/new) and import the repo. Vercel auto-detects Next.js —
-   no build settings to change.
-3. Under **Settings → Environment Variables**, optionally add `ANTHROPIC_API_KEY`.
-4. Click **Deploy**. You'll get a live `*.vercel.app` URL in about a minute.
-
-**Option B — Vercel CLI**
-```bash
-npm install -g vercel
-vercel login
-vercel                 # first deploy, follow the prompts
-vercel env add ANTHROPIC_API_KEY   # optional
-vercel --prod
-```
+LIVE LINK : https://ledger-lens-blue.vercel.app
 
 ## Project structure
 
